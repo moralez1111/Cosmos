@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Under These Stars - Our Celestial Story</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Fullscreen Star Canvas -->
+  <canvas id="cosmosCanvas"></canvas>
+
+
+  <!-- Star Information Modal -->
+  <div class="modal-backdrop" id="starModal">
+    <div class="star-info-card">
+      <span class="star-badge" id="modalDate">Date</span>
+      <h2 class="star-title" id="modalStarName">Star Name</h2>
+      <div class="star-subtitle" id="modalCoords">RA 00h 00m • DEC +00°</div>
+      <div class="divider"></div>
+      <p class="star-description" id="modalMemory">Memory details</p>
+      <button class="btn-close" onclick="closeModal()">კოსმოსში დაბრუნება</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
